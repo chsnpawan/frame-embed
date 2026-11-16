@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>EON City</title>
+  <style>
+    html, body { margin: 0; height: 100%; background: #0b0b0b; }
+    /* Fills the whole window; 100dvh keeps it correct under mobile address bars. */
+    iframe { position: fixed; inset: 0; width: 100%; height: 100%; height: 100dvh; border: 0; display: block; }
+  </style>
+</head>
+<body>
+  <!-- Static URL: change it here (and only here), commit, and Vercel redeploys. -->
+  <iframe
+    id="app"
+    src="https://YOUR-SITE.vercel.app/properties/eon-city"
+    title="EON City"
+    allow="fullscreen; geolocation; clipboard-write"
+    allowfullscreen
+    referrerpolicy="strict-origin-when-cross-origin"
+  ></iframe>
+</body>
+</html>
